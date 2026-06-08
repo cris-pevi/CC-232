@@ -181,7 +181,6 @@ Los árboles AVL tienen una cota de altura más baja que los árboles rojo-negro
 
 Sin embargo, los árboles rojo-negro tienen una ventaja práctica: controlan muy bien el número amortizado de rotaciones durante las actualizaciones. Esta propiedad los hace útiles en bibliotecas y sistemas donde se realizan muchas inserciones y eliminaciones.
 
-
 ### Conclusiones
 
 Los árboles rojo-negro muestran una forma muy sólida de balancear árboles binarios de búsqueda. A diferencia de los Treaps, no dependen de aleatoriedad. A diferencia de los Scapegoat Trees, no necesitan reconstruir subárboles completos. Su estrategia consiste en mantener invariantes de color que simulan el comportamiento de un árbol 2-4.
